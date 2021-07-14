@@ -1,0 +1,32 @@
+:root{
+    --Darkcyan: hsl(185, 75%, 39%);
+    --Verydarkdesaturatedblue: hsl(229, 23%, 23%);
+    --Darkgrayishblue: hsl(227, 10%, 46%);
+    --Darkgray: hsl(0, 0%, 59%);
+
+}
+
+body{
+    background-color: var(--Darkcyan);
+    background-image: url(../images/bg-pattern-top.svg);
+    background-image: url(../images/bg-pattern-bottom.svg);
+}
+
+
+
+.card{
+    border: 1px solid black;
+    background-color: #fff;
+    width: 90%;
+    margin: 7rem auto;
+    height: 40vh;
+    border-radius: 10px;;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
