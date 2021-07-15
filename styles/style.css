@@ -20,15 +20,17 @@ body{
     height: 100%;
     width: 100%;
     position: fixed;
-   
-   
-   
-   
 
 }
 
-section{
+
+.card-att-wrapper{
+    position: relative;
     overflow: hidden;
+    margin: 50% auto;
+    height: 50%;
+    width: 20rem;
+
 }
 
 
@@ -36,15 +38,14 @@ section{
 .card{
     
     background-color: #fff;
-    width: 20rem;
-    margin: 50% auto;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    position: relative;
-    overflow: hidden;
+    
 }
+
 
 .card-top{
     
@@ -122,12 +123,14 @@ section{
     flex-direction: column;
 }
 .attribution {
-    font-size: 11px;
+    font-size: 13px;
     text-align: center;
+    padding: 2rem;
   }
 
   .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: #fff;
+    text-decoration: none;
   }
 
   .circles{
@@ -142,12 +145,12 @@ section{
 
   }
   .circles .ctop{
-      top: -200px;
+      top: -100px;
       left: -200px;
       
   }
   .circles .cbottom{
-      bottom: 70px;
+      bottom: 0;
       right: -210px;
 
   }
