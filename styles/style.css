@@ -5,22 +5,110 @@
     --Darkgray: hsl(0, 0%, 59%);
 
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
 
 body{
     background-color: var(--Darkcyan);
-    background-image: url(../images/bg-pattern-top.svg);
-    background-image: url(../images/bg-pattern-bottom.svg);
+    overflow: hidden;
+   
+   
+   
+
+}
+
+section{
+    overflow: hidden;
 }
 
 
 
 .card{
-    border: 1px solid black;
+    
     background-color: #fff;
-    width: 90%;
-    margin: 7rem auto;
-    height: 40vh;
-    border-radius: 10px;;
+    width: 20rem;
+    margin: 5rem auto;
+    height: 50vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-top{
+    
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 0;
+    
+}
+
+.card-top img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    
+
+}
+.card-bottom{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    margin-bottom: 0;
+    
+}
+
+.card-bottom img{
+    border-radius: 50%;
+    margin-top: -3rem;
+    border: 3px solid #fff;
+    
+}
+.card-bottom h2{
+    font-weight: 400;
+    
+
+}
+
+.card-bottom h2 span{
+    color: var(--Darkgray);
+    
+}
+.card-bottom p{
+    color: var(--Darkgray);
+    
+    margin-top: -.5rem;
+}
+.bottom-main{
+   
+}
+.bottom-bottom{
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    font-size: 1rem;
+    line-height: 1;
+    
+}
+
+.followers{
+    display: flex;
+    flex-direction: column;
+}
+.likes{
+    display: flex;
+    flex-direction: column;
+}
+.photos{
+    display: flex;
+    flex-direction: column;
 }
 .attribution {
     font-size: 11px;
@@ -30,3 +118,30 @@ body{
   .attribution a {
     color: hsl(228, 45%, 44%);
   }
+
+  .circles{
+      overflow: hidden;
+  }
+
+  .circles .ctop,
+  .circles .cbottom{
+      position: absolute;
+      
+
+  }
+  .circles .ctop{
+      top: -200px;
+      left: -200px;
+      
+  }
+  .circles .cbottom{
+      bottom: 70px;
+      right: -210px;
+
+  }
+  .circles img{
+      width: 100%;
+      
+  }
+
+  
