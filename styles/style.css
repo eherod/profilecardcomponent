@@ -27,7 +27,7 @@ body{
 .card-att-wrapper{
     position: relative;
     overflow: hidden;
-    margin: 50% auto;
+    margin: 20vh auto;
     height: 50%;
     width: 20rem;
 
@@ -158,5 +158,131 @@ body{
       width: 100%;
       
   }
+
+  @media (min-width: 500px){
+    .circles .ctop{
+        top: -100px;
+        left: -300px;
+        
+    }
+    .circles .cbottom{
+        bottom: -200px;
+        right: -210px;
+  
+    }
+
+   
+      
+  }
+
+  @media (min-width: 600px){
+    .circles .ctop{
+        top: -200px;
+        left: -300px;
+        
+    }
+    .circles .cbottom{
+        bottom: -250px;
+        right: -310px;
+  
+    }
+
+   
+      
+  }
+
+  @media (min-width: 700px){
+    .circles .ctop{
+        top: -300px;
+        left: -400px;
+        
+    }
+    .circles .cbottom{
+        bottom: -250px;
+        right: -380px;
+  
+    }
+}
+
+    @media (min-width: 800px){
+        .circles .ctop{
+            top: -400px;
+            left: -500px;
+            
+        }
+        .circles .cbottom{
+            bottom: -350px;
+            right: -480px;
+      
+        }
+
+   
+      
+  }
+
+  @media (min-width: 900px){
+    .circles .ctop{
+        top: -70%;
+        left: -40%;
+        
+    }
+    .circles .cbottom{
+        bottom: -70%;
+        right: -60%;
+  
+    }
+}
+
+@media (min-width: 1000px){
+    .circles .ctop{
+        top: -80%;
+        left: -60%;
+        
+    }
+    .circles .cbottom{
+        bottom: -80%;
+        right: -60%;
+  
+    }
+}
+
+
+@media (min-width: 1200px){
+    .circles .ctop{
+        top: -100%;
+        left: -60%;
+        
+    }
+    .circles .cbottom{
+        bottom: -100%;
+        right: -60%;
+  
+    }
+}
+
+@media (min-width: 1400px){
+    .circles .ctop{
+        top: -120%;
+        left: -60%;
+        
+    }
+    .circles .cbottom{
+        bottom: -120%;
+        right: -60%;
+  
+    }
+}
+
+
+
+ 
+ 
+
+ 
+
+   
+      
+  
+
 
   
